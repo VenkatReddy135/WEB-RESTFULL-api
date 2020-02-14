@@ -1,0 +1,16 @@
+
+<h1 style="padding-left:350px;color:rgb(10, 3, 10)">Table</h1>
+<div class="container">
+<table style="text-align:center" border="4">
+    <tr>
+        <th style="color:tomato">NAME</th>
+        <th style="color:tomato">Capital</th>
+    </tr>
+   <tr *ngFor="let employ of Employees">
+       <td>{{employ.name}}</td>
+       <td>{{employ.capital}}</td>
+   </tr>
+</table>
+</div>
+
+  
